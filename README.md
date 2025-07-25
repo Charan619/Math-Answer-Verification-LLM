@@ -2,6 +2,8 @@
 
 We used the Llama3.1-8B transformer model, fine-tuned via LoRA (Low-Rank Adaptation), to classify answers as True or False. Using a large dataset of 1 million training samples containing questions, answers, detailed solutions, and correctness labels, the model was trained with hyperparameter tuning and prompt engineering to emphasize reasoning. Various experiments tested different hyperparameters, batch sizes, schedulers, and training steps, achieving a peak accuracy of 82.08%. Ablation studies revealed that including the detailed solution context significantly improved accuracy. The report concludes with suggestions for future improvements, such as optimal sampling of training data to further enhance performance.
 
+<img width="694" height="907" alt="image" src="https://github.com/user-attachments/assets/d2d9521b-42af-4b4b-803e-d70c2dda7b89" />
+
 ## Highlights
 📊 Achieved 82.08% accuracy in verifying math answer correctness using fine-tuned Llama3.1-8B with LoRA.
 
